@@ -1,0 +1,20 @@
+{
+  "name": "coolwebsite",
+  "version": "1.0.0",
+  "description": "This is a very cool website",
+  "homepage": "https://github.com/SuperMeerkat345/CoolWebsite#readme",
+  "bugs": {
+    "url": "https://github.com/SuperMeerkat345/CoolWebsite/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperMeerkat345/CoolWebsite.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
