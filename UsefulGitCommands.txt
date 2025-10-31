@@ -2,7 +2,7 @@ To pull data from github:
 git pull
 
 To push data to github:
-git add .
+git add .     OR      git add file1.txt file2.js file3.md
 git commit -m "Your message here IN THE QUOTES"
 git push
 
