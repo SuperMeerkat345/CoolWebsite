@@ -1,0 +1,9 @@
+To pull data from github:
+git pull
+
+To push data to github:
+git add .
+git commit -m "Your message here IN THE QUOTES"
+git push
+
+NOTE: You can use "git status" after git add . in order to see what files are added
