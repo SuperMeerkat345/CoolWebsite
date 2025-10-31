@@ -1,0 +1,21 @@
+PROGRAMMING ASSIGNMENT 2
+
+1.) 
+Write a function that takes a list of strings an prints them, one per line, in a rectangular frame. For example the list ["Hello", "World", "in", "a", "frame"] gets printed as:
+*********
+* Hello *
+* World *
+* in    *
+* a     *
+* frame *
+*********
+
+2.) 
+Write function that translates a text to Pig Latin and back. 
+English is translated to Pig Latin by taking the first letter of every word, moving it to the end of the word and adding ‘ay’. 
+“The quick brown fox” becomes “Hetay uickqay rownbay oxfay”.
+
+3.) 
+Create a function which takes a list of strings, translates to pig latin, and puts in a frame. Do this by calling the previous two functions.
+
+Good Luck!

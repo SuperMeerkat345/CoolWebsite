@@ -1,0 +1,15 @@
+PROGRAMMING ASSIGNMENT 1
+
+Make function:
+- add (num1, num2)
+- subtract (num1, num2)
+- divide (num1, num2)
+- multiply (num1, num2)
+
+In addition make the function:
+- quadraticFormula (a, b, c)
+^^^ This function calculates the roots for a quadratic ^^^
+^^^ If a quadratic has imaginary solutions let the user know
+^^^ Make sure to handle divide by zero errors
+
+Good Luck!
