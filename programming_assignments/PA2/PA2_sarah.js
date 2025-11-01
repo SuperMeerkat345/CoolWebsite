@@ -30,3 +30,22 @@ for(let j = 0; j < arr.length; j++){
     }
     console.log(output2);
 }
+
+function pigLatin(text){
+    let arr = text.split(" ");
+    for(let i = 0; i < arr.length; i++){
+        let output ="";
+        output+=arr[i].substring(1,arr[i].length);
+        output+=arr[i].substring(0,1);
+        output+="ay";
+        arr[i] = output;
+    }
+    text = arr.join(" ");
+    return(text);
+    
+}
+function pigLatinFrame(arr){
+    let text = arr.join(" ");
+    let newArr = pigLatin(text).split(" ");
+    frameList(newArr);
+}
