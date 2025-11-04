@@ -17,19 +17,24 @@ function rotateArray(array, count){
         array[0] = final;
     }
 }
-function removeDuplicates(arr){
-    let valueArray = []
-    for(let i = 0; i < arr.length; i++){
+function removeDuplicates(arr) {
+    let valueArray = [];
+
+    for (let i = 0; i < arr.length; i++) {
         let duplicate = false;
-    }
-    for(let j = 0; j < valueArray.length; j++){
-        if(arr[i] === valueArray[j]){
-            duplicate = true;
-            break;
+
+        for (let j = 0; j < valueArray.length; j++) {
+            if (arr[i] === valueArray[j]) {
+                duplicate = true;
+                break;
+            }
+        }
+
+        if (!duplicate) {
+            valueArray.push(arr[i]);
         }
     }
-    if(!duplicate){
-        valueArray.push(arr[j])
-    }
-    return arr;
+
+    return valueArray;
 }
+
