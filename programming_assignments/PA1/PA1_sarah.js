@@ -25,3 +25,26 @@ function quadraticFormula(a,b,c){
         console.log(root2);
     }
 }
+
+//tester code
+console.log("Addition")
+addition(1,2)
+addition(6,7)
+
+console.log("Subtraction")
+subtraction(1,2)
+subtraction(6,7)
+
+console.log("Division")
+divide(1,2)
+divide(6,7)
+divide(3,0) // ERROR
+
+console.log("Multiplication")
+multiply(1,2)
+multiply(6,7)
+
+console.log("Quadratic Formula")
+quadraticFormula(1, 3, 2)
+quadraticFormula(0, 2, 3) // ERROR
+quadraticFormula(1, 0, 4)
