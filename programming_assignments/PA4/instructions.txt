@@ -1,0 +1,23 @@
+PROGRAMMING ASSIGNMENT 4:
+This programming assignment is based on pure HTML.
+I do not expect you to use any CSS or JavaScript code since this is a beginner assignemnt.
+Later on you guys will collaborate on a website so this is sort of an introductory exercise to building them.
+
+I want you to create a simple "About Me" webpage that includes the following elements:
+
+1. A title for the webpage that says "About Me".
+2. A heading that introduces yourself (e.g., "Hello, I'm [Your Name]!"). 
+3. A paragraph that provides a brief introduction about yourself, including your hobbies and interests.
+4. An unordered list of at least three of your favorite books, movies, or activities.
+5. An image that represents you or something you like (make sure to use a valid image URL).
+6. A footer that includes your contact information (e.g., email address).
+
+KEEP IN MIND:
+This is for fun so I don't care what you actually write about yourself. 
+You could even say that you beat up aaron for fun if you want to.
+The point is to practice HTML structure.
+
+
+EXTRA CREDIT:
+If you want to, you can use a bit of css to spice up your webpage.
+Change the background color, font style, or add borders to your image.
