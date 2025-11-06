@@ -11,4 +11,4 @@ https://www.codecademy.com/learn/learn-html
 In case you want to test out building a website without having to create a seperate project and all that hooligantry, use this online editor:
 https://www.programiz.com/html/online-compiler/
 
-I want you guys to get really familiar with Javascript as it is the most versatile language for web development, but you also need to know how to use HTML, and CSS which isn't as important so we'll learn later.
+Once you have gotten familiar with html I want you to do programming assignment number 4.
