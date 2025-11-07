@@ -4,7 +4,6 @@
 * {
   font-family: monospace, serif;
   color: white;
-  
 }
   
 body {
@@ -27,11 +26,16 @@ a:hover {
 /* NAVBAR */
 
 .navbar {
-  background: #383838;
+  display: flex;
+  background: #2C2C2C;
   padding: 1px;
 }
   
-.navbar ul {
+.navlogo {
+  
+}
+  
+.navlinks ul {
   display: flex;
   gap: 20px;
   list-style-type: none;
@@ -52,7 +56,7 @@ a:hover {
 }
   
 /* MAIN PORTION OF BODY */
-.main {
+.textbody {
   background: #2c2c2c;
   padding: 20px;
   border-radius: 6px;
@@ -65,16 +69,20 @@ a:hover {
 
 <body>
   <div class="navbar">
-    <ul>
-      <li><a href="youtube.com">[Youtube]</a></li>
-	  <li><a href="example.com">[Example]</a></li>
-    </ul>
+    <div class="navlogo">
+    </div>
+    <div class="navlinks">
+      <ul>
+        <li><a href="youtube.com">[Youtube]</a></li>
+	    <li><a href="example.com">[Example]</a></li>
+      </ul>
+    </div>
   </div>
   <div class="body">
     <div class="title">
       <h2>Simple Website</h2>
     </div>
-    <div class="main">
+    <div class="textbody">
       <p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a euismod risus. Donec magna leo, consectetur ut consectetur eu, eleifend eu tortor. Suspendisse mollis nunc at massa auctor, vitae gravida lectus convallis. Donec id metus mi. Etiam in ultrices felis. Phasellus sollicitudin orci at gravida tempor. Phasellus dictum facilisis erat id posuere. Fusce commodo leo arcu, in aliquet diam fermentum vel. Nulla facilisis purus sed tellus ultricies malesuada. Nulla sed tincidunt nulla, a blandit ligula.
