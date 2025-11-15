@@ -57,7 +57,8 @@ printElementsInAnArray(testArray2);
 
 let testArray3 = [1, 2, 2, 3, 4, 4, 5];
 console.log("testArray3:");
-printElementsInAnArray(testArray1);
+printElementsInAnArray(testArray3);
+
 let uniqueArray = removeDuplicates(testArray3);
 console.log("After removeDuplicates:");
 printElementsInAnArray(uniqueArray);	
