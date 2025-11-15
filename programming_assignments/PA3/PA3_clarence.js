@@ -5,7 +5,7 @@ function zeroAnArray(x){
 }
 function printElementsInAnArray(y){
     for(let i = 0; i < y.length; i++){
-        console.log(y[i])``
+        console.log(y[i])
     }
 }
 function rotateArray(array, count){
@@ -38,3 +38,26 @@ function removeDuplicates(arr) {
     return valueArray;
 }
 
+// TESTER CODE
+let testArray1 = [1, 2, 3, 4, 5];
+console.log("testArray1:");
+printElementsInAnArray(testArray1);
+
+zeroAnArray(testArray1);
+console.log("After zeroAnArray:");
+printElementsInAnArray(testArray1);
+
+let testArray2 = [1, 2, 3, 4, 5];
+console.log("testArray2:");
+printElementsInAnArray(testArray2);
+
+rotateArray(testArray2, 2);
+console.log("After rotateArray by 2:");
+printElementsInAnArray(testArray2);
+
+let testArray3 = [1, 2, 2, 3, 4, 4, 5];
+console.log("testArray3:");
+printElementsInAnArray(testArray1);
+let uniqueArray = removeDuplicates(testArray3);
+console.log("After removeDuplicates:");
+printElementsInAnArray(uniqueArray);	
